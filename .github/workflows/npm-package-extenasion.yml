@@ -2,8 +2,8 @@ name: Package VSCode Extension
 
 on:
   push:
-    tags:
-      - 'v*.*.*' # Trigger on version tags
+    branches:
+      - main # Trigger on push to main branch
 
 jobs:
   package:
